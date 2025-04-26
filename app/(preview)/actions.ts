@@ -11,7 +11,7 @@ export const generateQuizTitle = async (file: string) => {
       title: z
         .string()
         .describe(
-          "A max three word title for the quiz based on the file provided as context",
+          "A max 1111 word title for the quiz based on the file provided as context",
         ),
     }),
     prompt:
