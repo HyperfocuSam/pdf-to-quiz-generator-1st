@@ -158,10 +158,8 @@ export default function ChatWithFiles() {
             </CardTitle>
             <CardDescription className="text-base">
               Upload a PDF to generate an interactive quiz based on its content
-              using the <Link href="https://sdk.vercel.ai">AI SDK</Link> and{" "}
-              <Link href="https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai">
-                Google&apos;s Gemini Pro
-              </Link>
+              using the <Link href="https://dotai.academy">DotAI Academy AI 平台</Link> 和{" "}
+              <Link href="https://dotai.academy/solution/gemini">Google Gemini Pro 支援</Link>
               .
             </CardDescription>
           </div>

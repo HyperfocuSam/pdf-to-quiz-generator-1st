@@ -7,9 +7,9 @@ import { Geist } from "next/font/google";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ai-sdk-preview-pdf-support.vercel.app"),
-  title: "PDF Support Preview",
-  description: "Experimental preview of PDF support with the AI SDK",
+  metadataBase: new URL("https://dotai.academy"),
+  title: "DotAI Academy PDF 測驗生成器",
+  description: "使用 DotAI Academy 的 AI 技術，將 PDF 文件轉換為互動式測驗。",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${geist.className}`}>
+    <html lang="zh-Hant" suppressHydrationWarning className={`${geist.className}`}>
       <body>
         <ThemeProvider attribute="class" enableSystem forcedTheme="dark">
           <Toaster position="top-center" richColors />
